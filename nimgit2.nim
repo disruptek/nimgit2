@@ -38,6 +38,9 @@ static:
 
 cOverride:
   type
+    git_error* = object
+      message*: cstring
+      klass*: cint
     git_iterator* = object
     git_note_iterator* = object
 
